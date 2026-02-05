@@ -1,0 +1,64 @@
+# Erasmus+ Project .gitignore
+
+# ===========================
+# DATOS (demasiado grandes para GitHub)
+# ===========================
+# Archivos CSV originales (~1.7GB total)
+bases_datos_erasmus/*.csv
+
+# Datos procesados si los generas
+data/raw/*.csv
+data/processed/*.parquet
+data/processed/*.csv
+data/processed/*.xlsx
+
+# Mantener estructura de carpetas
+!bases_datos_erasmus/.gitkeep
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# ===========================
+# JUPYTER NOTEBOOK
+# ===========================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ===========================
+# PYTHON
+# ===========================
+# Archivos compilados
+__pycache__/
+*.py[cod]
+*.so
+
+# Entornos virtuales (estas carpetas pesan ~500MB)
+venv/
+env/
+.venv/
+
+# ===========================
+# POWER BI
+# ===========================
+# Solo archivos temporales, NO el .pbix principal
+*.pbix.tmp
+*.pbix~
+
+# ===========================
+# ARCHIVOS TEMPORALES
+# ===========================
+*.log
+*.tmp
+*.bak
+*.swp
+
+# ===========================
+# WINDOWS
+# ===========================
+Thumbs.db
+Desktop.ini
+
+# ===========================
+# SEGURIDAD
+# ===========================
+.env
+credentials.json
