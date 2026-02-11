@@ -40,6 +40,8 @@ erasmus_project/
 ├── data_erasmus.ipynb          # Notebook with entire cleaning process (English)
 ├── data_erasmus_ES.ipynb       # Notebook in Spanish
 ├── Proyecto_erasmus_bi.pbix    # Power BI Dashboard
+├── LICENSE                    # Data license information
+├── .gitignore                 # Files ignored by Git
 ├── requirements.txt            # Required Python libraries
 │
 ├── bases_datos_erasmus/        # Original data (download required)
@@ -127,7 +129,7 @@ The data comes from the European Commission and covers all mobilities of the Era
 
 ### Processed data
 
-The final dataset has 2,082,071 records and 26 columns. Main variables include:
+The final dataset has 2,082,071 records and 21 columns. Main variables include:
 
 **Temporal:**
 - Academic year (format "2019-20")
@@ -354,7 +356,7 @@ If the dataset was generated mid-2024, that year's data could be incomplete. The
 - [QUICK_START.md](docs/en/QUICK_START.md): Quick guide to reproduce the project
 - [POWER_BI_GUIDE.md](docs/en/POWER_BI_GUIDE.md): Complete dashboard guide with interpretations
 - [DAX_MEASURES.md](docs/en/DAX_MEASURES.md): All Power BI measures explained
-- [DATA_DICTIONARY.md](docs/en/DATA_DICTIONARY.md): Description of the 26 final variables
+- [DATA_DICTIONARY.md](docs/en/DATA_DICTIONARY.md): Description of the 21 final variables
 - [EXECUTIVE_SUMMARY.md](docs/en/EXECUTIVE_SUMMARY.md): Executive project summary
 - [NAVIGATION.md](docs/en/NAVIGATION.md): Project navigation
 - [PROJECT_STRUCTURE.md](docs/en/PROJECT_STRUCTURE.md): Repository structure

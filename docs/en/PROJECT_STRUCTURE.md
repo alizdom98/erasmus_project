@@ -51,7 +51,7 @@ erasmus_project/
 - **[QUICK_START.md](QUICK_START.md)**: How to view the dashboard or reproduce the complete pipeline
 
 **3. Understand the variables**:
-- **[DATA_DICTIONARY.md](DATA_DICTIONARY.md)**: Complete description of the 26 columns
+- **[DATA_DICTIONARY.md](DATA_DICTIONARY.md)**: Complete description of the 21 columns
 
 ### For Advanced Users
 
@@ -125,8 +125,8 @@ The project follows this flow:
 
 ### Transformations
 
-- **Original columns**: 19-21 (varies by year)
-- **Final columns**: 26 (standardized)
+- **Original columns**: 19-20 (varies by year)
+- **Final columns**: 21 (standardized)
 - **New variables created**: 8 (isced_level, activity_group, etc.)
 - **Normalized countries**: 255 → 33 unique ISO2 codes
 

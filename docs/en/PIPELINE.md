@@ -456,7 +456,7 @@ This flag allows filtering to only students (excludes staff mobility) if a stric
 
 ### Column Selection
 
-From the 37 columns I had at that point, I selected only 26 for the final analysis:
+From the 37 columns I had at that point, I selected only 21 for the final analysis:
 
 **Included:**
 - All temporal variables
@@ -475,7 +475,7 @@ From the 37 columns I had at that point, I selected only 26 for the final analys
 
 ### Final Dataset
 
-**2,082,071 records** × **26 columns**
+**2,082,071 records** × **21 columns**
 
 Size in memory: ~413 MB
 Exported size (Parquet): ~80 MB
@@ -524,8 +524,8 @@ Exported size (CSV): ~400 MB
 
 ## References
 
-- **ISCED 2011**: http://uis.unesco.org/en/topic/international-standard-classification-education-isced
-- **ISCED-F 2013**: http://uis.unesco.org/en/topic/international-standard-classification-education-isced
+- **ISCED 2011**: https://uis.unesco.org/en/topic/international-standard-classification-education-isced
+- **ISCED-F 2013**: https://uis.unesco.org/en/topic/isced-fields-education-and-training
 - **ISO 3166-1 alpha-2**: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 - **Erasmus+ Programme Guide**: https://erasmus-plus.ec.europa.eu/programme-guide
 

@@ -296,6 +296,7 @@ ADDCOLUMNS(
     "Year", YEAR([Date]),
     "MonthNum", MONTH([Date]),
     "MonthName", FORMAT([Date], "MMMM"),
+    "YearMonth", FORMAT([Date], "YYYY-MM"),
     "Quarter", "Q" & FORMAT([Date], "Q"),
     "CovidPeriod",
         SWITCH(TRUE(),

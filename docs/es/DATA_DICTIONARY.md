@@ -8,7 +8,7 @@ Este documento describe todas las variables del dataset final preparado para an�
 
 - **Dataset**: `erasmus_he_2017_2024.parquet` / `.csv`
 - **Registros**: 2,082,071
-- **Columnas**: 26
+- **Columnas**: 21
 - **Período**: 2017-2024 (años de inicio de movilidad)
 - **Enfoque**: Educación Superior (ISCED 6-8)
 
@@ -209,7 +209,7 @@ Es una categoría de la Comisión Europea para participantes que enfrentan barre
 - `activity_group` + `he_strict`: Diferenciar estudiantes vs staff
 
 ### Análisis de Impacto COVID
-- Comparar `year_start` 2017-2019 (pre) vs 2021-2024 (post)
+- Comparar `year_start` 2017-2019 (pre) vs 2022-2024 (post)
 - Filtrar por país receptor para ver qué destinos se recuperaron más rápido
 
 ---

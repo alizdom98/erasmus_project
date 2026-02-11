@@ -40,6 +40,8 @@ erasmus_project/
 ├── data_erasmus.ipynb          # Notebook con todo el proceso (inglés)
 ├── data_erasmus_ES.ipynb       # Notebook en español
 ├── Proyecto_erasmus_bi.pbix    # Dashboard de Power BI
+├── LICENSE                    # Información de licencia de datos
+├── .gitignore                 # Archivos ignorados por Git
 ├── requirements.txt            # Librerías de Python que necesitas
 │
 ├── bases_datos_erasmus/        # Datos originales (hay que descargarlos)
@@ -127,7 +129,7 @@ Los datos vienen de la Comisión Europea y cubren todas las movilidades del prog
 
 ### Datos procesados
 
-El dataset final tiene 2,082,071 registros y 26 columnas. Las principales variables incluyen:
+El dataset final tiene 2,082,071 registros y 21 columnas. Las principales variables incluyen:
 
 **Temporales:**
 - Año académico (formato "2019-20")
@@ -173,19 +175,19 @@ Los grandes ganadores fueron países del sur y este de Europa:
 
 | País | Cambio | Observación |
 |------|--------|-------------|
-| Croatia | +37% | El mayor crecimiento relativo en recepción |
-| Greece | +35% | Probablemente por clima y costos |
-| Turkey | +32% | Programas cada vez más atractivos |
-| Romania | +26% | Europa del Este ganando terreno |
+| Croacia | +37% | El mayor crecimiento relativo en recepción |
+| Grecia | +35% | Probablemente por clima y costos |
+| Turquía | +32% | Programas cada vez más atractivos |
+| Rumanía | +26% | Europa del Este ganando terreno |
 
-**Caso especial - Ukraine:** Los envíos aumentaron un 137%. Esto claramente está relacionado con la guerra: muchos estudiantes ucranianos buscan estudiar fuera.
+**Caso especial - Ucrania:** Los envíos aumentaron un 137%. Esto claramente está relacionado con la guerra: muchos estudiantes ucranianos buscan estudiar fuera.
 
 #### Países que perdieron después de COVID
 
 | País | Cambio | Por qué |
 |------|--------|---------|
-| Russia | -90% | Guerra de Ucrania + sanciones internacionales |
-| United Kingdom | -70% | Brexit (ya no participa en Erasmus+) |
+| Rusia | -90% | Guerra de Ucrania + sanciones internacionales |
+| Reino Unido | -70% | Brexit (ya no participa en Erasmus+) |
 | Polonia, Francia, Alemania | Caídas moderadas | Pierden cuota ante destinos emergentes |
 
 **Lo interesante:** España, Francia y Alemania siguen siendo los destinos con más volumen en términos absolutos, pero están perdiendo cuota de mercado frente a destinos más económicos.
@@ -354,7 +356,7 @@ Si el dataset se generó a mitad de 2024, los datos de ese año podrían estar i
 - [QUICK_START.md](QUICK_START.md): Guía rápida para reproducir el proyecto
 - [POWER_BI_GUIDE.md](POWER_BI_GUIDE.md): Guía completa del dashboard con interpretaciones
 - [DAX_MEASURES.md](DAX_MEASURES.md): Todas las medidas de Power BI explicadas
-- [DATA_DICTIONARY.md](DATA_DICTIONARY.md): Descripción de las 26 variables finales
+- [DATA_DICTIONARY.md](DATA_DICTIONARY.md): Descripción de las 21 variables finales
 - [EXECUTIVE_SUMMARY.md](EXECUTIVE_SUMMARY.md): Resumen ejecutivo del proyecto
 - [NAVIGATION.md](NAVIGATION.md): Navegación del proyecto
 - [PROJECT_STRUCTURE.md](PROJECT_STRUCTURE.md): Estructura del repositorio

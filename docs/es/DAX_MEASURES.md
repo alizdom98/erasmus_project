@@ -425,6 +425,37 @@ SWITCH(
 
 ---
 
+### COVID Participants
+
+```dax
+COVID Participants =
+CALCULATE(
+    [Participants (View)],
+    DimDate[CovidPeriod] = "COVID (2020–2021)"
+)
+```
+
+**Propósito**: Cuenta participantes durante el período COVID (2020-2021).
+
+**Uso**: Card en Página 1 mostrando volumen del período COVID.
+
+---
+
+### % Change
+
+```dax
+% Change =
+VAR FielDif = [Post-COVID Participants] - [Pre-COVID Participants]
+RETURN
+DIVIDE(FielDif, [Pre-COVID Participants])
+```
+
+**Propósito**: Cambio porcentual entre Post-COVID y Pre-COVID.
+
+**Uso**: Tabla de campos de estudio en Página 4.
+
+---
+
 ##  Patrones DAX Utilizados
 
 ### 1. TREATAS() - Relaciones Virtuales
@@ -520,6 +551,7 @@ IF(
 ### Página 1 (Overview)
 - `[Participants (View)]` - Base dinámica
 - `[Pre-COVID Participants]` - Card
+- `[COVID Participants]` - Card
 - `[Post-COVID Participants]` - Card
 - `[Recovery Rate]` - Card
 - `[Title Top10]` - Título dinámico
@@ -540,7 +572,7 @@ IF(
 ### Página 4 (Fields of Study)
 - `[Pre-COVID Participants]` - Tabla comparativa
 - `[Post-COVID Participants]` - Tabla comparativa
-- `[Pct Change Receiving (MinBase)]` - % Change en tabla
+- `[% Change]` - % Change en tabla
 
 ---
 

@@ -24,14 +24,14 @@ Si es la primera vez que ves el proyecto:
 
 **Si te interesa la parte técnica de limpieza de datos:**
 - [PIPELINE.md](PIPELINE.md) - Proceso completo de limpieza paso a paso
-- [data_erasmus.ipynb](../../data_erasmus.ipynb) - El código ejecutable con comentarios
+- [data_erasmus_ES.ipynb](../../data_erasmus_ES.ipynb) - El código ejecutable con comentarios
 
 **Si quieres entender el dashboard de Power BI:**
 - [POWER_BI_GUIDE.md](POWER_BI_GUIDE.md) - Cómo funciona el dashboard y el modelo de datos
 - [DAX_MEASURES.md](DAX_MEASURES.md) - Todas las medidas DAX explicadas
 
 **Si quieres saber qué significa cada variable:**
-- [DATA_DICTIONARY.md](DATA_DICTIONARY.md) - Descripción de las 26 columnas finales
+- [DATA_DICTIONARY.md](DATA_DICTIONARY.md) - Descripción de las 21 columnas finales
 
 ---
 
@@ -104,7 +104,7 @@ Los archivos de datos no están en el repositorio por su tamaño (~1.7 GB). Ver 
 2. [EXECUTIVE_SUMMARY.md](EXECUTIVE_SUMMARY.md) (5 min) - Resumen del proyecto
 3. [QUICK_START.md](QUICK_START.md) (10 min) - Setup
 4. [PIPELINE.md](PIPELINE.md) (1-2 horas) - Proceso de limpieza
-5. [data_erasmus.ipynb](../../data_erasmus.ipynb) (1-2 horas) - Código ejecutable
+5. [data_erasmus_ES.ipynb](../../data_erasmus_ES.ipynb) (1-2 horas) - Código ejecutable
 6. [DATA_DICTIONARY.md](DATA_DICTIONARY.md) (30 min) - Variables
 7. [POWER_BI_GUIDE.md](POWER_BI_GUIDE.md) (1 hora) - Dashboard
 8. [DAX_MEASURES.md](DAX_MEASURES.md) (30 min) - Medidas DAX

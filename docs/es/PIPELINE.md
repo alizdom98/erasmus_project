@@ -456,7 +456,7 @@ Esta bandera permite filtrar a solo estudiantes (excluye staff mobility) si se n
 
 ### Selección de columnas
 
-De las 37 columnas que tenía en ese punto, seleccioné solo 26 para el análisis final:
+De las 37 columnas que tenía en ese punto, seleccioné solo 21 para el análisis final:
 
 **Incluí:**
 - Todas las variables temporales
@@ -475,7 +475,7 @@ De las 37 columnas que tenía en ese punto, seleccioné solo 26 para el análisi
 
 ### Dataset Final
 
-**2,082,071 registros** × **26 columnas**
+**2,082,071 registros** × **21 columnas**
 
 Tamaño en memoria: ~413 MB
 Tamaño exportado (Parquet): ~80 MB
@@ -524,8 +524,8 @@ Tamaño exportado (CSV): ~400 MB
 
 ## Referencias
 
-- **ISCED 2011**: http://uis.unesco.org/en/topic/international-standard-classification-education-isced
-- **ISCED-F 2013**: http://uis.unesco.org/en/topic/international-standard-classification-education-isced
+- **ISCED 2011**: https://uis.unesco.org/en/topic/international-standard-classification-education-isced
+- **ISCED-F 2013**: https://uis.unesco.org/en/topic/isced-fields-education-and-training
 - **ISO 3166-1 alpha-2**: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 - **Erasmus+ Programme Guide**: https://erasmus-plus.ec.europa.eu/programme-guide
 

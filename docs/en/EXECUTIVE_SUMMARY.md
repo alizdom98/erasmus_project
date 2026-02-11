@@ -102,7 +102,7 @@ I worked with a 9-phase pipeline on 6 million records:
 8. Normalize countries by ISO2 code
 9. Filter and prepare the final subset
 
-The result was a clean dataset of 2.1M records × 26 variables.
+The result was a clean dataset of 2.1M records × 21 variables.
 
 ### Data model (Power BI)
 

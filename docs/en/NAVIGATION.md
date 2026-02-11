@@ -31,7 +31,7 @@ If this is your first time viewing the project:
 - [DAX_MEASURES.md](DAX_MEASURES.md) - All DAX measures explained
 
 **If you want to know what each variable means:**
-- [DATA_DICTIONARY.md](DATA_DICTIONARY.md) - Description of the 26 final columns
+- [DATA_DICTIONARY.md](DATA_DICTIONARY.md) - Description of the 21 final columns
 
 ---
 

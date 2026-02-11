@@ -32,14 +32,14 @@ El "Recovery Rate" que calculé es 99.77%. Es decir, casi hemos vuelto al nivel 
 ### 2. Cambio de destinos favoritos
 
 **Los ganadores** fueron países del sur y este de Europa:
-- Croatia: +37%
-- Greece: +35%
-- Turkey: +32%
-- Ukraine: +137% en envíos (claramente por la guerra)
+- Croacia: +37%
+- Grecia: +35%
+- Turquía: +32%
+- Ucrania: +137% en envíos (claramente por la guerra)
 
 **Los perdedores**:
-- Russia: -90% (guerra + sanciones)
-- UK: -70% (Brexit)
+- Rusia: -90% (guerra + sanciones)
+- Reino Unido: -70% (Brexit)
 - Polonia, Francia, Alemania: caídas moderadas
 
 Lo interesante es que España, Francia y Alemania siguen siendo los destinos más populares en términos absolutos, pero están perdiendo cuota frente a opciones más económicas.
@@ -102,7 +102,7 @@ Trabajé con un pipeline de 9 fases sobre 6 millones de registros:
 8. Normalizar países por código ISO2
 9. Filtrar y preparar el subset final
 
-El resultado fue un dataset limpio de 2.1M registros × 26 variables.
+El resultado fue un dataset limpio de 2.1M registros × 21 variables.
 
 ### Modelo de datos (Power BI)
 

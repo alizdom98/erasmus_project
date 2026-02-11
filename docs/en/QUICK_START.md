@@ -146,11 +146,12 @@ If you have little RAM (<8 GB):
 
 - **[README.md](../../README.md)**: Project overview and main findings
 - **[PIPELINE.md](PIPELINE.md)**: Step-by-step cleaning process with justifications
-- **[DATA_DICTIONARY.md](DATA_DICTIONARY.md)**: Complete description of the 26 variables
+- **[DATA_DICTIONARY.md](DATA_DICTIONARY.md)**: Complete description of the 21 variables
 - **[POWER_BI_GUIDE.md](POWER_BI_GUIDE.md)**: Dashboard and data model guide
 - **[DAX_MEASURES.md](DAX_MEASURES.md)**: DAX measures explained
 - **[EXECUTIVE_SUMMARY.md](EXECUTIVE_SUMMARY.md)**: Executive project summary
 - **[PROJECT_STRUCTURE.md](PROJECT_STRUCTURE.md)**: Repository structure
+- **[NAVIGATION.md](NAVIGATION.md)**: Project navigation guide
 
 ---
 
