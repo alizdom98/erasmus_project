@@ -254,6 +254,18 @@ Unlike other changes, the gender distribution did not change significantly betwe
 
 ---
 
+## Dashboard Preview
+
+| Overview | COVID Impact on Mobility Flows |
+|----------|-------------------------------|
+| ![Overview](assets/screenshots/page1_overview.png) | ![COVID Impact](assets/screenshots/page2_covid_impact.png) |
+
+| Participant Profile | Fields of Study |
+|---------------------|-----------------|
+| ![Participant Profile](assets/screenshots/page3_participant_profile.png) | ![Fields of Study](assets/screenshots/page4_fields_of_study.png) |
+
+---
+
 ## The Power BI Dashboard
 
 I created an interactive dashboard with 4 main pages:
