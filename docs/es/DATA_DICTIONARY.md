@@ -1,10 +1,10 @@
-#  Data Dictionary - Erasmus+ HE Dataset (2017-2024)
+# Data Dictionary - Erasmus+ HE Dataset (2017-2024)
 
 [Read in English](../en/DATA_DICTIONARY.md) | [Leer en Español](DATA_DICTIONARY.md)
 
 Este documento describe todas las variables del dataset final preparado para análisis en Power BI.
 
-##  Descripción General
+## Descripción General
 
 - **Dataset**: `erasmus_he_2017_2024.parquet` / `.csv`
 - **Registros**: 2,082,071
@@ -14,9 +14,9 @@ Este documento describe todas las variables del dataset final preparado para an�
 
 ---
 
-##  Variables por Categoría
+## Variables por Categoría
 
-###  Variables Temporales
+### Variables Temporales
 
 | Variable | Tipo | Valores | Descripción |
 |----------|------|---------|-------------|
@@ -34,7 +34,7 @@ Este documento describe todas las variables del dataset final preparado para an�
 
 ---
 
-###  Variables Geográficas
+### Variables Geográficas
 
 #### Países Emisores (Sending)
 
@@ -75,7 +75,7 @@ Este documento describe todas las variables del dataset final preparado para an�
 
 ---
 
-###  Variables Demográficas
+### Variables Demográficas
 
 | Variable | Tipo | Valores | Descripción | Missing |
 |----------|------|---------|-------------|---------|
@@ -99,7 +99,7 @@ Es una categoría de la Comisión Europea para participantes que enfrentan barre
 
 ---
 
-###  Variables Educativas
+### Variables Educativas
 
 #### Nivel ISCED
 
@@ -153,7 +153,7 @@ Es una categoría de la Comisión Europea para participantes que enfrentan barre
 
 ---
 
-###  Variables Métricas
+### Variables Métricas
 
 | Variable | Tipo | Valores | Descripción | Missing |
 |----------|------|---------|-------------|---------|
@@ -174,7 +174,7 @@ Es una categoría de la Comisión Europea para participantes que enfrentan barre
 
 ---
 
-###  Indicadores y Variables de Control
+### Indicadores y Variables de Control
 
 | Variable | Tipo | Valores | Descripción |
 |----------|------|---------|-------------|
@@ -186,7 +186,7 @@ Es una categoría de la Comisión Europea para participantes que enfrentan barre
 
 ---
 
-##  Casos de Uso por Variable
+## Casos de Uso por Variable
 
 ### Análisis Temporal
 - `year_start`, `academic_year`: Tendencias anuales, análisis pre/postcovid
@@ -214,7 +214,7 @@ Es una categoría de la Comisión Europea para participantes que enfrentan barre
 
 ---
 
-##  Limitaciones Conocidas
+## Limitaciones Conocidas
 
 ### Missing Values (% del dataset)
 
@@ -241,7 +241,7 @@ Años 2014-2016 fueron excluidos porque para el análisis Pre/Post-COVID no era 
 
 ---
 
-##  Referencias
+## Referencias
 
 - **ISCED 2011**: [UNESCO - International Standard Classification of Education](http://uis.unesco.org/en/topic/international-standard-classification-education-isced)
 - **ISCED-F 2013**: [UNESCO - Fields of Education and Training](https://uis.unesco.org/en/topic/isced-fields-education-and-training)

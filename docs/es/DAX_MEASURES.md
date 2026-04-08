@@ -1,4 +1,4 @@
-#  DAX Measures - Referencia Completa
+# DAX Measures - Referencia Completa
 
 [Read in English](../en/DAX_MEASURES.md) | [Leer en Español](DAX_MEASURES.md)
 
@@ -6,7 +6,7 @@ Documentación de todas las medidas y tablas calculadas del dashboard de Power B
 
 ---
 
-##  Tablas Calculadas
+## Tablas Calculadas
 
 ### 1. DimDate (Tabla de Fechas)
 
@@ -342,7 +342,7 @@ DIVIDE([Post Receiving], [Pre Receiving])
 
 ---
 
-##  Columnas Calculadas
+## Columnas Calculadas
 
 ### Quadrant (en AxisCountry)
 
@@ -403,7 +403,7 @@ SWITCH(
 
 ---
 
-##  Medidas de UI/UX
+## Medidas de UI/UX
 
 ### Title Top10
 
@@ -456,7 +456,7 @@ DIVIDE(FielDif, [Pre-COVID Participants])
 
 ---
 
-##  Patrones DAX Utilizados
+## Patrones DAX Utilizados
 
 ### 1. TREATAS() - Relaciones Virtuales
 
@@ -546,7 +546,7 @@ IF(
 
 ---
 
-##  Medidas por Página
+## Medidas por Página
 
 ### Página 1 (Overview)
 - `[Participants (View)]` - Base dinámica
